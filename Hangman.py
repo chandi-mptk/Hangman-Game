@@ -167,8 +167,6 @@ Do you want to Play again?")
         # Randomly Select a Word from Word List
         self.chosen_word = choice(word_list).upper()
 
-        print(self.chosen_word)
-
         # Set Life as 7 (available Life is 6)
         self.lives = 7
 
